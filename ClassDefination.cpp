@@ -39,7 +39,6 @@ public:
 	BigInteger& operator *= (BigInteger b);
 	BigInteger& operator /= (BigInteger b);
 	BigInteger& operator %= (BigInteger b);
-	BigInteger& operator [] (int n);
 	BigInteger operator -(); // unary minus sign
 	operator string(); // for conversion from BigInteger to string
 private:
